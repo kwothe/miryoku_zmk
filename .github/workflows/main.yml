@@ -50,7 +50,7 @@ jobs:
   main:
     runs-on: ubuntu-latest
     container:
-      image: zmkfirmware/zmk-build-arm:v0.3
+      image: zmkfirmware/zmk-build-arm:stable
     strategy:
       fail-fast: false
       matrix:
